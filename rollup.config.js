@@ -10,7 +10,7 @@ export default [
         output: {
             file: './build/example1.min.js',
             format: 'iife',
-            name: 'minutos',
+            name: 'example1',
             globals: { 'lodash': '_' }
         },
         plugins: [
